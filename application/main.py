@@ -4,7 +4,7 @@ from fastapi import FastAPI
 import pandas as pd
 import pickle
 
-pickle_win = open('model\\model.pkl', 'rb')
+pickle_win = open('model/model.pkl', 'rb')
 model = pickle.load(pickle_win)
 print(model)
 
@@ -24,9 +24,8 @@ class BodyModel(BaseModel):
 app = FastAPI()
 
 @app.post('/predict')
-async def predict(body: BodyModel):
-    data = body.model_dump()
-    data = pd.DataFrame(data, index=[0])
+async def predict(_body_: BodyModel):
+    data = _body_.dict()
+    data = pd.DataFrame([data])
     prediction = model.predict(data)
-    return {"prediction": prediction}
-
+    return {"prediction": prediction.tolist()}
