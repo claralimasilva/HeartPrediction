@@ -1,5 +1,3 @@
-# heart
-
 # Heart Disease Prediction Project
 ## Overview
 This project aims to predict the likelihood of heart disease in individuals using machine learning techniques. We have utilized the scikit-learn library to build our predictive models and incorporated MLOps practices with MLflow for experiment tracking and model management. The model is served using FastAPI and containerized with Docker for easy deployment and scalability.
@@ -67,13 +65,10 @@ curl -X 'POST' \
 }'
 ## Example
 ### Running Docker Container
-[Running Docker.webm](https://github.com/pedrocavalc/heart/assets/89861384/91c27aa3-3916-42d2-9c0b-0129dbfb092b)
+[Running Docker.webm](https://github.com/claralimasilva/HeartPrediction/assets/111255062/88715e37-d971-4586-abe4-8cc9fd65e063)
 
 ### Request to post
-
-[2024-04-19 01-36-54 (online-video-cutter.com) (1).webm](https://github.com/pedrocavalc/heart/assets/89861384/79a5e489-84bb-455e-9348-ec438a356c05)
-
-
+[Request video.webm](https://github.com/claralimasilva/HeartPrediction/assets/111255062/698113a9-34f3-47e0-9f47-59b3fc961997)
 
 ## Contributing
 Contributions to this project are welcome. Please fork the repository and submit a pull request with your changes.
