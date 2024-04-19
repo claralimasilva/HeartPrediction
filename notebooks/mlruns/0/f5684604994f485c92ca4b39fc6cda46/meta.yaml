@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/clara/Documents/Projetinho%20para%20entrevista%20t%C3%A9cnica/notebooks/mlruns/0/f5684604994f485c92ca4b39fc6cda46/artifacts
+end_time: 1713491373715
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f5684604994f485c92ca4b39fc6cda46
+run_name: flawless-bass-112
+run_uuid: f5684604994f485c92ca4b39fc6cda46
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713491346128
+status: 3
+tags: []
+user_id: clara

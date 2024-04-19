@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/clara/Documents/Projetinho%20para%20entrevista%20t%C3%A9cnica/notebooks/mlruns/0/f848b60d80a647bfa96cbe7a2787d31c/artifacts
+end_time: 1713491403528
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f848b60d80a647bfa96cbe7a2787d31c
+run_name: righteous-mink-110
+run_uuid: f848b60d80a647bfa96cbe7a2787d31c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713491379531
+status: 3
+tags: []
+user_id: clara

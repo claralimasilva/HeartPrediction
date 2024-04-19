@@ -1,0 +1,7 @@
+[('ColumnTransformer', ColumnTransformer(transformers=[('categorical_pipeline',
+                                 OneHotEncoder(handle_unknown='ignore'),
+                                 ['Sex', 'ChestPainType', 'RestingECG',
+                                  'ExerciseAngina', 'ST_Slope']),
+                                ('numerical_pipeline', StandardScaler(),
+                                 ['Age', 'RestingBP', 'Cholesterol',
+                                  'FastingBS', 'MaxHR', 'Oldpeak'])])), ('classifier', GaussianNB())]

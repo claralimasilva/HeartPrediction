@@ -1,0 +1,14 @@
+digest: 684db073
+name: dataset
+profile: '{"num_rows": 184, "num_elements": 2024}'
+schema: '{"mlflow_colspec": [{"type": "long", "name": "Age", "required": true}, {"type":
+  "string", "name": "Sex", "required": true}, {"type": "string", "name": "ChestPainType",
+  "required": true}, {"type": "long", "name": "RestingBP", "required": true}, {"type":
+  "double", "name": "Cholesterol", "required": true}, {"type": "long", "name": "FastingBS",
+  "required": true}, {"type": "string", "name": "RestingECG", "required": true}, {"type":
+  "long", "name": "MaxHR", "required": true}, {"type": "string", "name": "ExerciseAngina",
+  "required": true}, {"type": "double", "name": "Oldpeak", "required": true}, {"type":
+  "string", "name": "ST_Slope", "required": true}]}'
+source: '{"tags": {"mlflow.user": "clara", "mlflow.source.name": "C:\\Users\\clara\\AppData\\Roaming\\Python\\Python310\\site-packages\\ipykernel_launcher.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code
